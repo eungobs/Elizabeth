@@ -1,0 +1,230 @@
+:root{
+    --def-font :"Playfair Display", serif; 
+    --head-font : "Poppins", sans-serif;
+    --blue-color : #6c63ff;
+    --back-white-color : #f9f7fe;
+    --dark-color : #272142;
+    --black-color : black;
+}
+body{
+    font-family: var(--def-font); 
+}
+nav{
+    padding: 15px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--dark-color);
+    font-family: var(--head-font);
+    font-weight: bold;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover{
+    color: var(--blue-color);
+}
+nav li{
+    display: inline;
+    padding: 8px;
+    line-height: 42px; 
+}
+nav li.active a{
+    color: var(--blue-color);
+}
+
+.logo{
+    max-height: 40px;
+}
+h1, h3, h4{
+    font-family: var(--def-font);
+    font-weight: bold;
+}
+.main-head h1{
+    font-size: 96px;
+    line-height: 1.5;
+}
+
+.main-head h2{
+    font-size: 24px;
+    line-height: 2;
+    font-family: var(--def-font);
+    font-weight: normal;
+}
+.main-head{
+    background-color: var(--back-white-color);
+    text-align: center;
+    padding: 160px 20px;
+}
+.main-head p{
+    font-family: var(--head-font);
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    color: var(--dark-color);
+}
+.btn-branding-1{
+    background-color: var(--blue-color);
+    color: var(--back-white-color);
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color .15s 
+    ease-in-out,background-color .15s 
+    ease-in-out,border-color .15s 
+    ease-in-out,box-shadow .15s 
+    ease-in-out;
+    margin-right: 20px;
+}
+
+.btn-branding-1:hover{
+    color: var(--black-color);
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+}
+.btn-branding-2{
+    background-color: transparent;
+    color: var(--blue-color);
+    border: 1px solid #6c63ff;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 18px;
+    cursor: pointer;
+    transition: color .15s 
+    ease-in-out,background-color .15s 
+    ease-in-out,border-color .15s 
+    ease-in-out,box-shadow .15s 
+    ease-in-out;
+    margin-left: 20px;
+}
+.btn-branding-2:hover{
+    color: var(--black-color);
+}
+
+.container-text h1, h2{
+    font-size: 64px;
+    font-family: var(--def-font);
+}
+.container-text p{
+    color: #6c757d;
+    line-height: 30px;
+    font-family: var(--def-font);
+}
+.yogurt{
+    max-width: 100%;
+    height: auto;
+}
+.pr-ds{
+    padding: 120px 60px;
+}
+@media(max-width: 900px) {
+    .pr-ds{
+        padding: 0;
+        text-align: center;
+
+    }
+    .main-head h1{
+        font-size: 44px;
+        line-height: 2;
+    }
+    .container-text h2{
+        font-size: 44px;
+    }
+    .main-head{
+        padding: 80px 20px;
+    }
+body .container-ab{
+text-align: center;
+margin: 0;
+padding: 20px;
+    }
+    .row{
+        justify-content: center;
+        
+    }
+    .row .rrr {
+       width: fit-content;
+    }
+}
+.contact{
+    line-height: 0.5;
+    margin-bottom: 100px;
+}
+.contact h2{
+font-size: 48px;
+font-weight: bold;
+}
+.contact a{
+    font-size: 28px;
+    text-decoration: none;
+    color: var(--blue-color);
+    margin-bottom: 50px;
+}
+.contact a:hover{
+    text-decoration: underline;
+   
+}
+
+.content-ab h1{
+font-size: 64px;
+font-family: var(--head-font);
+}
+.content-ab h2{
+    font-size: 18px;
+    font-family: var(--head-font);
+    font-weight: bold;
+}
+.container-ab{
+    padding: 160px 20px;
+    margin: 80px;
+}
+.content-ab p{
+    font-size: 16px;
+    font-family: var(--head-font);
+    color: #212529;
+}
+.img-ab{
+    max-width: 100%;
+}
+.contact-box{
+    background-color: var(--back-white-color);
+    padding: 30px 150px;
+    border-radius: 10px;
+}
+.cont-b h4{
+    font-size: 48px;
+}
+.mail-link{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    transition: all 100ms ease-in-out;
+    font-family: var(--head-font);
+}
+.mail-link:hover{
+    color: var(--blue-color);
+}
+.social-links a{
+    padding: 10px 14px;
+    font-size: 18px;
+    border-radius: 50%;
+    background-color: var(--back-white-color);
+    transition: all 100ms ease-in-out;
+    margin: 0 20px;
+}
+.social-links a:hover{
+    background-color: var(--blue-color);
+    color: #f9f7fe;
+}
+form{
+    width: 60%;
+}
+.pr-ds .mail{
+width: 200px;
+margin-left: 730px;
+margin-top: -300px;
+}
